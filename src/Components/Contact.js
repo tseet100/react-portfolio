@@ -32,7 +32,11 @@ const Contact = ({data}) => {
 
       <div className="row">
         <div className="eight columns">
-          <form id="contactForm" name="contactForm">
+          {/* <form
+            id="contactForm"
+            name="contactForm"
+            action="mailto:take1seet@gmail.com"
+          >
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -100,8 +104,21 @@ const Contact = ({data}) => {
                 </span>
               </div>
             </fieldset>
+          </form> */}
+
+          <form method="post" action="contact.php">
+            <input
+              value={subject}
+              type="text"
+              defaultValue=""
+              size="35"
+              id="contactSubject"
+              name="first name"
+              onChange={(e) => setSubject(e.target.value)}
+            />
           </form>
 
+          {/* <<<? */}
           <div id="message-warning"> Error boy</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
