@@ -1,18 +1,18 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "ReactJS Developer && Instructor @CleverProgrammer",
-    "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
+    "name": "Trevor Seet",
+    "occupation": "fullstack software engineer",
+    "description": "Currently looking for opportunities to start my journey with a company with extreme passion and teamwork",
     "image": "IG_Sonny.jpeg",
-    "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
+    "bio": "I love watching travel or food related videos youtube, eating at new restaurants, and hiking upstate. Not really a sports guy, but I did take an interest in badminton and bowling in high school. Before making my transition into tech, I was an assistant General Manager at Chipotle. I was able to see the progression of their app from their launch day from a user standpoint. It bothered me that if people wanted a quesadilla, they didn't have a button for it, which caused a huge inconvenience for everyone. That triggered my interest in app development",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-    "email": "sonny@cleverprogrammer.com",
-    "phone": "+44 12 345 6789",
+    "email": "take1seet@gmail.com",
+    "phone": "+1 (917) 678-8893",
     "address": {
-      "street": "123 Fake Street",
-      "city": "London",
-      "state": "UK",
-      "zip": "ABC 123"
+      "street": "take1seet@gmail.com",
+      "city": "New York",
+      "state": "NY",
+      "zip": ""
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
@@ -43,10 +43,22 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University of Kent",
-        "degree": "Masters in Advanced Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
+        "school": "Fullstack Academy",
+        "degree": "Immersive bootcamp",
+        "graduated": "April 2020",
+        "description": ""
+      },
+      {
+        "school": "Queens College",
+        "degree": "Economics",
+        "graduated": "Completed 99 credits towards a bachelors degree",
+        "description": ""
+      },
+      {
+        "school": "Nassau Community College",
+        "degree": "Liberal Arts AA",
+        "graduated": "August 2014",
+        "description": ""
       }
     ],
     "work": [
