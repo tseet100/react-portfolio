@@ -2,7 +2,7 @@
   "main": {
     "name": "Trevor Seet",
     "occupation": "fullstack software engineer",
-    "description": "Currently looking for opportunities to start my journey with a company with extreme passion and teamwork",
+    "description": "Currently looking for opportunities to start my journey with a company centered around passion and teamwork",
     "image": "IG_Sonny.jpeg",
     "bio": "I love watching travel or food related videos youtube, eating at new restaurants, and hiking upstate. Not really a sports guy, but I did take an interest in badminton and bowling in high school. Before making my transition into tech, I was an assistant General Manager at Chipotle. I was able to see the progression of their app from their launch day from a user standpoint. It bothered me that if people wanted a quesadilla, they didn't have a button for it, which caused a huge inconvenience for everyone. That triggered my interest in app development",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
@@ -18,24 +18,19 @@
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha/",
+        "url": "https://www.linkedin.com/in/trevorseet/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "http://github.com/tseet100",
+        "className": "fa fa-github"
       },
       {
-        "name": "github",
-        "url": "http://github.com/sonnysangha",
-        "className": "fa fa-github"
+        "name": "lols",
+        "url": "mailto:take1seet@gmail.com",
+        "className": "fa fa-envelope-o"
       }
     ]
   },
@@ -63,76 +58,38 @@
     ],
     "work": [
       {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
-      },
-      {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
+        "company": "Chipotle",
+        "title": "Assistant General Manager",
+        "years": "March 2016 - February 2020",
+        "description": "Conducted interviews and trained new hires. Developed daily goals to improve P&L. Acted as a food safety leader throughout shifts."
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "Node, Javascript, React, Redux",
+        "level": "80%"
       },
       {
-        "name": "CSS",
-        "level": "95%"
-      },
-      {
-        "name": "Git",
+        "name": "CSS, HTML, Git, Sequelize, Express",
         "level": "60%"
       },
       {
-        "name": "Figma && Adobe XD",
-        "level": "55%"
+        "name": "Git, Heroku, OAuth",
+        "level": "45%"
       },
       {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "MongoDB, React Hooks",
+        "level": "25%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "title": "Calamity Monitor",
+        "category": "A PWA displaying the most up to date Covid-19 data and news. Built with React, ArchGIS, News API, D3, & MUI",
         "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
-      },
-      {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      },
-      {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "url": "https://calamity-monitor.herokuapp.com/"
       }
     ]
   },

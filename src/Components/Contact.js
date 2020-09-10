@@ -115,8 +115,9 @@ const Contact = ({data}) => {
             <p className="address">
               {data?.name}
               <br />
-              {data?.address.street} <br />
-              <span>{data?.phone}</span>
+              <span>{data?.phone}</span> <br />
+              <a href="mailto:take1seet@gmail.com">take1seet@gmail.com</a>
+              <br />
             </p>
           </div>
 
