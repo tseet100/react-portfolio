@@ -482,12 +482,11 @@ ul#nav li.current a {
 }
 .portfolio-item .item-wrap {
   background: #fff;
-
   overflow: hidden;
   position: relative;
   display: block;
-  height: 130px;
-  width: 250px;
+  height: 150px;
+  width: 190px;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -497,8 +496,9 @@ ul#nav li.current a {
 }
 
 .portfolio-item .item-wrap:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
 }
+
 .portfolio-item .item-wrap a {
   display: block;
   cursor: pointer;

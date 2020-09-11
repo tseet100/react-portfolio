@@ -21,7 +21,6 @@ class Portfolio extends Component {
                 </div>
               </a>
             </div>
-            <div>HI</div>
           </div>
         );
       });
