@@ -89,13 +89,15 @@
         "title": "Calamity Monitor",
         "category": "A PWA displaying the most up to date Covid-19 data and news. Built with React, ArchGIS, News API, D3, & MUI",
         "image": "https://images.theconversation.com/files/342938/original/file-20200619-70371-jtv8ue.jpg?ixlib=rb-1.1.0&rect=0%2C8%2C5499%2C3647&q=45&auto=format&w=496&fit=clip",
-        "url": "https://calamity-monitor.herokuapp.com/"
+        "url": "https://calamity-monitor.herokuapp.com/",
+        "git": "https://github.com/calamity-monitor/calamity-monitor"
       },
       {
         "title": "Tech Tracker",
         "category": "A 4 person ecommerce project for Fullstack Academy. Built with React, Redux, Heroku, Express, PostgreSQL",
         "image": "images/portfolio/GraceShop.png",
-        "url": "https://graceshopper4.herokuapp.com/"
+        "url": "https://graceshopper4.herokuapp.com/",
+        "git": "https://github.com/Grace-Shoppe/graceshopper"
       }
     ]
   },

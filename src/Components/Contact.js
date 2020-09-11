@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 const Contact = ({data}) => {
   const [url, setUrl] = useState(
-    'mailto:test@example.com?subject=subject&body=body'
+    'mailto:take1seet@gmail.com?subject=subject&body=body'
   );
   const [name, setName] = useState('');
   const [subject, setSubject] = useState('');
@@ -32,10 +32,11 @@ const Contact = ({data}) => {
 
       <div className="row">
         <div className="eight columns">
-          {/* <form
+          <form
             id="contactForm"
             name="contactForm"
-            action="mailto:take1seet@gmail.com"
+            action="https://formspree.io/xgengglw"
+            method="POST"
           >
             <fieldset>
               <div>
@@ -55,7 +56,7 @@ const Contact = ({data}) => {
 
               <div>
                 <label htmlFor="contactEmail">
-                  Email <span className="required">*</span>
+                  Your Email <span className="required">*</span>
                 </label>
                 <input
                   value={email}
@@ -63,12 +64,12 @@ const Contact = ({data}) => {
                   defaultValue=""
                   size="35"
                   id="contactEmail"
-                  name="contactEmail"
+                  name="_replyto"
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
 
-              <div>
+              {/* <div>
                 <label htmlFor="contactSubject">Subject</label>
                 <input
                   value={subject}
@@ -79,7 +80,7 @@ const Contact = ({data}) => {
                   name="contactSubject"
                   onChange={(e) => setSubject(e.target.value)}
                 />
-              </div>
+              </div> */}
 
               <div>
                 <label htmlFor="contactMessage">
@@ -91,12 +92,12 @@ const Contact = ({data}) => {
                   cols="50"
                   rows="15"
                   id="contactMessage"
-                  name="contactMessage"
+                  name="message"
                 ></textarea>
               </div>
 
               <div>
-                <button type="submit" onClick={handleClick} className="submit">
+                <button type="submit" className="submit">
                   Submit
                 </button>
                 <span id="image-loader">
@@ -104,18 +105,6 @@ const Contact = ({data}) => {
                 </span>
               </div>
             </fieldset>
-          </form> */}
-
-          <form method="post" action="contact.php">
-            <input
-              value={subject}
-              type="text"
-              defaultValue=""
-              size="35"
-              id="contactSubject"
-              name="first name"
-              onChange={(e) => setSubject(e.target.value)}
-            />
           </form>
 
           {/* <<<? */}
