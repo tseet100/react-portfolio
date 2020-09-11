@@ -15,7 +15,7 @@
       "zip": ""
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "/images/Resume.jpg",
     "social": [
       {
         "name": "linkedin",
@@ -46,7 +46,7 @@
       {
         "school": "Queens College",
         "degree": "Economics",
-        "graduated": "2014-2017",
+        "graduated": "2014-2018",
         "description": "Completed 99 credits towards a bachelors degree"
       },
       {
@@ -74,7 +74,7 @@
         "level": "60%"
       },
       {
-        "name": "Git, Heroku, OAuth",
+        "name": "Heroku, OAuth",
         "level": "45%"
       },
       {
