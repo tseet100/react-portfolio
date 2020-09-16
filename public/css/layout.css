@@ -207,7 +207,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #2b2b2b;
+  background: #fcfffc;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -224,7 +224,7 @@ ul#nav li.current a {
 
 #about h2 {
   font: 22px/30px 'opensans-bold', sans-serif;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 12px;
 }
 #about p {
@@ -232,11 +232,63 @@ ul#nav li.current a {
   color: #7a7a7a;
 }
 #about .profile-pic {
-  position: static;
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
+  display: block;
+
+  /* position: relative; */
+  /* width: 150px; */
+  /* height: 120px;  */
+  border-radius: 50%;
 }
+
+/* .un-photo:hover {
+  z-index: 999;
+} */
+
+/* .un-photo:hover > img {
+  transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+  transform: rotate(180deg);
+} */
+
+.un-photo figure {
+  position: relative;
+}
+.un-photo figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  -webkit-transform: skewX(0deg);
+  transform: skewX(0deg);
+}
+.un-photo figure:hover::before {
+  -webkit-animation: shine 0.75s;
+  animation: shine 0.75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 100%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 60%;
+  }
+}
+
 #about .contact-details {
   width: 41.66667%;
 }
@@ -249,12 +301,14 @@ ul#nav li.current a {
 }
 #about .download .button {
   margin-top: 6px;
-  background: #444;
-}
-#about .download .button:hover {
-  background: #fff;
+  background: rgb(255, 255, 255);
   color: #2b2b2b;
 }
+#about .download .button:hover {
+  background: #2b2b2b;
+  color: rgb(255, 255, 255);
+}
+
 #about .download .button i {
   margin-right: 15px;
   font-size: 20px;
