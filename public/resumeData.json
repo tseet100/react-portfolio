@@ -41,7 +41,7 @@
         "school": "Fullstack Academy",
         "degree": "Immersive bootcamp",
         "graduated": "April 2020",
-        "description": ""
+        "description": "13 week immersive course"
       },
       {
         "school": "Queens College",
@@ -61,24 +61,24 @@
         "company": "Chipotle",
         "title": "Assistant General Manager",
         "years": "March 2016 - February 2020",
-        "description": "Conducted interviews and trained new hires. Developed daily goals to improve P&L. Acted as a food safety leader throughout shifts."
+        "description": "Conducted interviews and trained 20-25 new hires. Developed daily goals to improve P&L by $100+ on most days. Acted as a food safety leader to 10-13 crew members throughout shifts."
       }
     ],
     "skills": [
       {
-        "name": "Node, Javascript, React, Redux",
+        "name": "Node, Javascript, React, Redux, Postgres, Sequelize, Express",
         "level": "80%"
       },
       {
-        "name": "CSS, HTML, Git, Sequelize, Express",
+        "name": "CSS, HTML, Git, Sequelize, Express, Firebase",
         "level": "60%"
       },
       {
-        "name": "Heroku, OAuth",
+        "name": "Heroku, OAuth, React Hooks",
         "level": "45%"
       },
       {
-        "name": "MongoDB, React Hooks",
+        "name": "MongoDB",
         "level": "25%"
       }
     ]
@@ -94,10 +94,24 @@
       },
       {
         "title": "Tech Tracker",
-        "category": "A 4 person ecommerce project for Fullstack Academy. Built with React, Redux, Heroku, Express, PostgreSQL",
+        "category": "A 4 person ecommerce project for Fullstack Academy. Incorporated sessions, admin functionality & more.",
         "image": "images/portfolio/GraceShop.png",
         "url": "https://graceshopper4.herokuapp.com/",
         "git": "https://github.com/Grace-Shoppe/graceshopper"
+      },
+      {
+        "title": "Won Tu Fiddy",
+        "category": "Solo project inspired by a game on the app store. Goal is to click tiles 1 to 50 consecutively. Built with ReactJS & Redux",
+        "image": "images/portfolio/1to50.png",
+        "url": "wontufiddy.netlify.app",
+        "git": "https://github.com/tseet100/WonTuFiddy"
+      },
+      {
+        "title": "99cent",
+        "category": "",
+        "image": "images/portfolio/amazon-clone.png",
+        "url": "https://ecom8-26530.firebaseapp.com/",
+        "git": "https://github.com/tseet100/99c_amazonClone"
       }
     ]
   },

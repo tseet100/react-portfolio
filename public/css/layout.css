@@ -301,9 +301,10 @@ ul#nav li.current a {
 }
 #about .download .button {
   margin-top: 6px;
-  background: rgb(255, 255, 255);
+  background: #fcfffc;
   color: #2b2b2b;
 }
+
 #about .download .button:hover {
   background: #2b2b2b;
   color: rgb(255, 255, 255);
