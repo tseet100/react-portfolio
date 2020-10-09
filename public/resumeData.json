@@ -4,7 +4,7 @@
     "occupation": "fullstack software engineer",
     "description": "Currently looking for opportunities to start my journey with a company centered around passion and teamwork",
     "image": "LIpic.jpg",
-    "bio": "I love watching travel or food related videos on youtube, eating at new restaurants, and hiking upstate. Not really a sports guy, but I did take an interest in badminton and bowling in high school. Before making my transition into tech, I was an assistant General Manager at Chipotle. I was able to see the progression of their app from their launch day from a user standpoint. It bothered me that if people wanted a quesadilla, they didn't have a button for it, which caused a huge inconvenience for everyone. That triggered my interest in app development.",
+    "bio": "I love watching travel or food related videos on youtube, eating at new restaurants, and hiking upstate. Fun fact: I took interest in badminton and bowling in high school. Before making my transition into tech, I was an assistant General Manager at Chipotle. I was able to see the progression of their app from their launch day. I observed all the flaws of the app from both the customers and workers view. It bothered me that if people wanted a quesadilla, they didn't have a button for it, which caused a huge inconvenience for everyone (still to this day, try it). That triggered my interest in app development.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "take1seet@gmail.com",
     "phone": "+1 (917) 678-8893",
@@ -87,7 +87,7 @@
     "projects": [
       {
         "title": "Calamity Monitor",
-        "category": "A PWA displaying the most up to date Covid-19 data and news. Built with React, ArchGIS, News API, D3, & MUI",
+        "category": "A PWA displaying the most up to date Covid-19 data and news. Built with React, ArchGIS, News API, D3, & MUI.",
         "image": "https://images.theconversation.com/files/342938/original/file-20200619-70371-jtv8ue.jpg?ixlib=rb-1.1.0&rect=0%2C8%2C5499%2C3647&q=45&auto=format&w=496&fit=clip",
         "url": "https://calamity-monitor.herokuapp.com/",
         "git": "https://github.com/calamity-monitor/calamity-monitor"
@@ -101,14 +101,14 @@
       },
       {
         "title": "Won Tu Fiddy",
-        "category": "Solo project inspired by a game on the app store. Goal is to click tiles 1 to 50 consecutively. Built with ReactJS & Redux",
+        "category": "Solo project inspired by a game on the app store. Goal is to click tiles 1 to 50 consecutively. Built with ReactJS & Redux.",
         "image": "images/portfolio/1to50.png",
         "url": "wontufiddy.netlify.app",
         "git": "https://github.com/tseet100/WonTuFiddy"
       },
       {
         "title": "99cent",
-        "category": "",
+        "category": "Amazon clone built alongside Youtuber Clever Programmer. Built with Stripe, Firebase backend, & React Hooks.",
         "image": "images/portfolio/amazon-clone.png",
         "url": "https://ecom8-26530.firebaseapp.com/",
         "git": "https://github.com/tseet100/99c_amazonClone"
