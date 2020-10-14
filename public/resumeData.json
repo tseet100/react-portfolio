@@ -103,7 +103,7 @@
         "title": "Won Tu Fiddy",
         "category": "Solo project inspired by a game on the app store. Goal is to click tiles 1 to 50 consecutively. Built with ReactJS & Redux.",
         "image": "images/portfolio/1to50.png",
-        "url": "wontufiddy.netlify.app",
+        "url": "https://wontufiddy.netlify.app",
         "git": "https://github.com/tseet100/WonTuFiddy"
       },
       {
