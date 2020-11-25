@@ -74,12 +74,8 @@
         "level": "60%"
       },
       {
-        "name": "Heroku, OAuth, React Hooks",
+        "name": "Heroku, MongoDB",
         "level": "45%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "25%"
       }
     ]
   },
@@ -112,18 +108,6 @@
         "image": "images/portfolio/amazon-clone.png",
         "url": "https://ecom8-26530.firebaseapp.com/",
         "git": "https://github.com/tseet100/99c_amazonClone"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
       }
     ]
   }
