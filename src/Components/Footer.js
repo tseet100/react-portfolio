@@ -21,7 +21,7 @@ class Footer extends Component {
             <ul className="social-links">{networks}</ul>
 
             <ul className="copyright">
-              <li>Based off of Tim Baker's Template</li>
+              <li>Made By Trevor Seet</li>
             </ul>
           </div>
           <div id="go-top">

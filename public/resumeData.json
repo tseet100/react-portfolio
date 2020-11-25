@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Trevor Seet",
-    "occupation": "fullstack software engineer",
+    "occupation": "software engineer",
     "description": "Currently looking for opportunities to start my journey with a company centered around passion and teamwork",
     "image": "LIpic.jpg",
     "bio": "I love watching travel or food related videos on youtube, eating at new restaurants, and hiking upstate. Fun fact: I took interest in badminton and bowling in high school. Before making my transition into tech, I was an assistant General Manager at Chipotle. I was able to see the progression of their app from their launch day. I observed all the flaws of the app from both the customers and workers view. It bothered me that if people wanted a quesadilla, they didn't have a button for it, which caused a huge inconvenience for everyone (still to this day, try it). That triggered my interest in app development.",
@@ -66,15 +66,15 @@
     ],
     "skills": [
       {
-        "name": "Node, Javascript, React, Redux, Postgres, Sequelize, Express",
+        "name": "Node, Javascript, Git, React, Redux, Postgres, Sequelize, Express, CSS, HTML",
         "level": "80%"
       },
       {
-        "name": "CSS, HTML, Git, Sequelize, Express, Firebase",
+        "name": "Firebase, Handlebars, Heroku",
         "level": "60%"
       },
       {
-        "name": "Heroku, MongoDB",
+        "name": "MongoDB",
         "level": "45%"
       }
     ]
