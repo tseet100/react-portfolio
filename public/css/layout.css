@@ -88,8 +88,18 @@ header .banner-text hr {
   border-color: rgba(150, 150, 150, 0.1);
 }
 
-/* header .responsive-headline {
-} */
+header h1 span {
+  /* opacity: 0; */
+  transition: all 0.5s ease;
+  transform: translateY(50px);
+  display: inline-block;
+}
+
+header h1 span.fade {
+  /* opacity: 1; */
+  transform: translateY(0px);
+  color: #00cccc;
+}
 
 /* header social links */
 header .social {
