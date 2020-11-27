@@ -134,7 +134,6 @@ jQuery(document).ready(function ($) {
   const text = document.querySelector('.responsive-headline');
   const strText = text.textContent;
   const splitText = strText.split('');
-  console.log('hererer', splitText);
   text.textContent = '';
 
   for (let i = 0; i < splitText.length; i++) {
